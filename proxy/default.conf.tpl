@@ -1,10 +1,7 @@
 server {
     listen ${LISTEN_PORT};
 
-    location /static/admin {
-        alias /vol/static/static/admin;
-    }
-
+    
     location /static {
         alias /vol/static;
     }
